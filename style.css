@@ -84,7 +84,7 @@ nav {
 h1 {
 	font-size: 48px;
 	color: #fff;
-	padding-top: 50px;
+	padding-top: 25px;
 	text-align: center;
 }
 
@@ -139,17 +139,22 @@ h3 {
 
 #footer {
 	position: absolute;
-	min-height: 70px;
+	min-height: 8%;
 	background-color: #285380;
 	bottom: 0;
 	left: 0;
 	width: 100%;
 	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 h6 {
 	color: #fff;
 	font-size: 14px;
 	text-align: center;
+	margin: 0;
+
 	
 }
