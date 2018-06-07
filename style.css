@@ -1,8 +1,12 @@
+html{
+	height: 100%;
+}
 body {
 	font-family: 'Roboto', sans-serif;
 	padding: 0;
 	margin: 0;
 	position: relative;
+	height: 100%;
 }
 
 .clearfix:before,
@@ -37,12 +41,12 @@ div, a, li {
 }
 
 #wrapper { 
-	min-height: 100vh; 
+	height: 100%; 
 	
 }
 .header {
 	background: #4da3fb;
-	min-height: 40vh;
+	min-height: 40%;
 	overflow: hidden;
 }
 
@@ -101,7 +105,7 @@ h1 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 50vh;
+	height: 50%;
 }
 
 
